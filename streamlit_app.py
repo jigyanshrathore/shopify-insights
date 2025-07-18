@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 # --- API Endpoint ---
-FASTAPI_URL = "http://127.0.0.1:8000/scrape-and-analyze"
+FASTAPI_URL = "https://shopify-insights-api.onrender.com/scrape-and-analyze"
 
 # --- UI Components ---
 st.title("🛍️ Shopify Store Insights Fetcher")
